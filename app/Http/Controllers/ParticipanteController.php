@@ -80,6 +80,7 @@ class ParticipanteController extends Controller
 
         return response()->json(['message' => 'Números comprados com sucesso!']);
     }
+    
 
     public function numerosComprados()
     {
